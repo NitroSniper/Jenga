@@ -14,3 +14,6 @@ services:
       - DJANGO_DEBUG=1
       - ALLOWED_HOSTS=localhost,127.0.0.1
       - DJANGO_SECRET_KEY=django-insecure-n7)p+1qf)1uj(6c^a0ovck&6r34wcn+5+-11lh^3e!7g#9yh0s
+      - DJANGO_SUPERUSER_USERNAME=admin
+      - DJANGO_SUPERUSER_EMAIL=admin@example.com
+      - DJANGO_SUPERUSER_PASSWORD=admin
